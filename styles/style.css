@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  max-width: 100%;
+  min-height: 100%;
+} */
+
+.c-item {
+  height: 100vh;
+}
+
+.c-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: fixed;
+  top: 100px;
+}
+
+.navs {
+  position: fixed;
+  top: 20px;
+  margin-left: 40%;
+}
+
+.carousel .carousel-inner .c-text1 {
+  font-size: 7vw;
+  font-weight: 900;
+}
+
+.carousel .carousel-inner .c-text {
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.carousel-caption .btn-p:hover {
+  background: none;
+  color: blue;
+  border: 2px solid blue;
+}
+
+.movie-nav {
+  color: #fff;
+}
+.btn-nav {
+  height: 40px;
+  width: 100px;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn-nav:hover {
+  border: 2px solid blue;
+  color: blue;
+}
+
+.video-page {
+  height: 100vh;
+}
+
+.movie-script .movie-script-head {
+  text-align: center;
+  font-weight: bold;
+}
+
+.movie-script-body {
+  margin: 10px 30%;
+}
+
+.member-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 200px 20px;
+}
+
+.unit-member-card {
+  height: 320px;
+  width: 240px;
+  border-radius: 20px;
+  margin: 30px 10px;
+  box-shadow: 2px 6px 21px 24px rgba(0, 0, 0, 0.09);
+  margin: 30px 30px;
+  text-align: center;
+}
+
+.unit-member-card img {
+  height: 200px;
+  width: 190px;
+  border-radius: 50%;
+  margin: 10px 70px;
+  margin-left: 35px;
+}
+
+.unit-meal-card img:hover {
+  transform: scale(1.3);
+  transform: translateY(-20%);
+}
+@media screen and (max-width: 800px) {
+  .carousel .carousel-inner .c-text1 {
+    font-size: 7vw;
+  }
+  .c-item {
+    height: 80vh;
+  }
+
+  .c-img {
+    height: 80vh;
+    object-fit: cover;
+  }
+}
